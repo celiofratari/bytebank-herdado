@@ -1,31 +1,31 @@
 
-public class funcionario {
-    private String nome;
-    private String cpf;
-    private double salario;
+public class Funcionario {
+    private String Nome;
+    private String CPF;
+    private double Salario;
     
     
-    public double getbonificacao() {   
-    	return this.salario * 0.10;
+    public double getBonificacao() {   
+    	return this.Salario * 0.10;
     }
     
 	public String getNome() {
-		return nome;
+		return Nome;
 	}
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setNome(String Nome) {
+		this.Nome = Nome;
 	}
-	public String getCpf() {
-		return cpf;
+	public String getCPF() {
+		return CPF;
 	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
+	public void setCPF(String CPF) {
+		this.CPF = CPF;
 	}
 	public double getSalario() {
-		return salario;
+		return Salario;
 	}
-	public void setSalario(double salario) {
-		this.salario = salario;
+	public void setSalario(double Salario) {
+		this.Salario = Salario;
 	}
 
 }
