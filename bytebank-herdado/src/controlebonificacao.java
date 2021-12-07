@@ -1,5 +1,5 @@
 
-public class controleBonificacao {
+public class ControleBonificacao {
 	
 	private double Soma;
 
