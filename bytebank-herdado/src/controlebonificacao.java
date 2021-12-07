@@ -1,16 +1,16 @@
 
-public class controlebonificacao {
+public class controleBonificacao {
 	
-	private double soma;
+	private double Soma;
 
 	
-	public void registra(funcionario f) {
-		double boni = f.getbonificacao();
-		this.soma = this.soma + boni;
+	public void Registra(funcionario f) {
+		double Boni = f.getBonificacao();
+		this.Soma = this.soma + Boni;
 	}
 	
-	public double getsoma() {       
-		return soma;
+	public double getSoma() {       
+		return Soma;
 	}
 
 
