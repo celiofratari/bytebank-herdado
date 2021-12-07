@@ -1,28 +1,28 @@
 
-public class testereferencia {
+public class TesteReferencia {
 
 	public static void main(String[] args) {
 		
-		gerente g1 = new gerente(); 
-		g1.setNome("celio");
-		g1.setSalario(500);
+		Gerente G1 = new Gerente(); 
+		G1.setNome("celio");
+		G1.setSalario(500);
 		
-		funcionario f = new funcionario();
+		Funcionario f = new funcionario();
 		f.setSalario(500);
 		
-		editorvideo ev = new editorvideo();
+		EditorVideo ev = new EditorVideo();
 		ev.setSalario(500);
 		
-	    disigner d = new disigner();
+	    Disigner d = new Disigner();
 		d.setSalario(500);
 		
-		controlebonificacao controle = new controlebonificacao();
-		controle.registra(g1);
-		controle.registra(f);
-		controle.registra(ev);
-		controle.registra(d);
+		ControleBonificacao Controle = new ControleBonificacao();
+		Controle.Registra(G1);
+		Controle.Registra(f);
+		Controle.Registra(ev);
+		Controle.Registra(d);
 		
-		System.out.println(controle.getsoma());
+		System.out.println(Controle.getSoma());
 
 	}
 
