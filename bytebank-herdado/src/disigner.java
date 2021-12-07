@@ -1,7 +1,7 @@
 
-public class disigner extends funcionario {
+public class Disigner extends Funcionario {
     
-    public double getbonificacao() {   
+    public double getBonificacao() {   
 	    return 200;                 
     }
     
